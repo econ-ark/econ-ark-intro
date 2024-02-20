@@ -1,0 +1,20 @@
+name: rs100_discussion
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - openpyxl
+  - fredapi
+  - lxml
+  - requests
+  - statsmodels
+  - pip:
+    - pandas-datareader
+    - fredpy
+    - statsmodels
+
